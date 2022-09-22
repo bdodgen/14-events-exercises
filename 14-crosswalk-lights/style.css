@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.both-lights {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.stop-light {
+  background-image: url('img/stop-on.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  height: 300px;
+}
+
+.stop-light_off {
+  background-image: url('img/stop-off.svg');
+}
+
+.walk-light {
+  background-image: url(img/walk-off.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  height: 300px;
+}
+
+.walk-light_on {
+  background-image: url(img/walk-on.svg);
+}
+
+.the-button {
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
